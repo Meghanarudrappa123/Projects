@@ -1,0 +1,71 @@
+.projectPage{
+  min-height: calc(100vh-4rem);
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+}
+
+.project{
+  margin: 1rem;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0;
+  background: rgb(30,30,30);
+  border-radius: 0.5rem;
+}
+
+.projectHead{
+  font-size: 3rem;
+  font-weight: 600;
+  padding-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+.projectTitle{
+  font-size: 1.4rem;
+  
+}
+.projectTechno{
+ font-size: 0.9rem;
+ font-weight: 200;
+ color: gray;
+ letter-spacing: 0.05rem;
+ word-spacing: 0.005rem;
+ line-height: 1.15;
+ padding-bottom: 2rem;
+ 
+ 
+}
+.projectDesc{
+  font-size: 0.9rem;
+ font-weight: 200;
+ color: gray;
+ letter-spacing: 0.05rem;
+ word-spacing: 0.005rem;
+ line-height: 1.5;
+ padding:0.5rem 1rem;
+ text-align: left;
+ text-align: justify;
+}
+
+.projectView{
+ background: white;
+ color: black;
+ padding: 1rem;
+ border: none;
+ border-radius: 20rem;
+}
+
+
+
+.projectImg{
+  object-fit: cover;
+  height: 5rem;
+  width: 5rem;
+  margin-right: 2rem;
+  display: flex;
+}
